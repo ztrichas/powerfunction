@@ -1,8 +1,8 @@
 import powerfunction
 
-base = float_input("Input a base.")
-exponent = int_input("Input an exponent.")
+base = powerfunction.float_input("Input a base.")
+exponent = powerfunction.int_input("Input an exponent.")
 
 
 
-print( recursivePowerFunction(base, exponent))
+print(powerfunction.recursivePowerFunction(base, exponent))
